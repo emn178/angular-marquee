@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Angular-marquee : An angular plugin provides marquee message.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Angular-marquee</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/emn178/angular-marquee">View on GitHub</a>
+
+          <h1 id="project_title">Angular-marquee</h1>
+          <h2 id="project_tagline">An angular plugin provides marquee message.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/emn178/angular-marquee/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/emn178/angular-marquee/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="angular-marquee" class="anchor" href="#angular-marquee" aria-hidden="true"><span class="octicon octicon-link"></span></a>angular-marquee</h1>
+
+<p>An angular plugin provides marquee message.</p>
+
+<h2>
+<a id="download" class="anchor" href="#download" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download</h2>
+
+<p><a href="https://raw.github.com/emn178/angular-marquee/master/build/jquery.marquee.min.js">Compress</a><br>
+<a href="https://raw.github.com/emn178/angular-marquee/master/src/jquery.marquee.js">Uncompress</a></p>
+
+<h2>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<p><a href="http://emn178.github.io/angular-marquee/samples/marquee/">Marquee</a>  </p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h2>
+
+<ul>
+<li><a href="http://jquery.com/">jQuery</a></li>
+<li>
+<a href="https://github.com/aamirafridi/jQuery.Marquee">jQuery.Marquee</a><br>
+</li>
+<li>
+<a href="https://angularjs.org/">AngularJS</a><br>
+</li>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Add the ngMarquee module as a dependency to your application module:</p>
+
+<div class="highlight highlight-JavaScript"><pre><span class="pl-s">var</span> myAppModule <span class="pl-k">=</span> angular.module(<span class="pl-s1"><span class="pl-pds">'</span>MyApp<span class="pl-pds">'</span></span>, [<span class="pl-s1"><span class="pl-pds">'</span>ngMarquee<span class="pl-pds">'</span></span>])</pre></div>
+
+<h2>
+<a id="ngmarquee" class="anchor" href="#ngmarquee" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngMarquee</h2>
+
+<p>The ngMarquee directive allows you to specify element as a marquee.</p>
+
+<h3>
+<a id="directive-info" class="anchor" href="#directive-info" aria-hidden="true"><span class="octicon octicon-link"></span></a>Directive Info</h3>
+
+<p>This directive executes at priority level 0.</p>
+
+<h3>
+<a id="usage-1" class="anchor" href="#usage-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<p>as element:
+HTML</p>
+
+<div class="highlight highlight-HTML"><pre>&lt;<span class="pl-ent">ng</span><span class="pl-e">-marquee</span>
+  <span class="pl-e">ng-options</span>=<span class="pl-s1"><span class="pl-pds">"</span>{}<span class="pl-pds">"</span></span>&gt;
+...
+&lt;/<span class="pl-ent">ng</span><span class="pl-e">-marquee</span>&gt;</pre></div>
+
+<h3>
+<a id="arguments" class="anchor" href="#arguments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Arguments</h3>
+
+<table>
+<thead>
+<tr>
+<th align="left">Param</th>
+<th align="left">Type</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ngOptions</td>
+<td align="left">expression</td>
+<td>Expression to specify custom options to marquee.</td>
+</tr>
+</tbody>
+</table>
+
+<h3>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h3>
+
+<div class="highlight highlight-HTML"><pre>&lt;<span class="pl-ent">ng</span><span class="pl-e">-marquee</span> <span class="pl-e">ng-options</span>=<span class="pl-s1"><span class="pl-pds">"</span>{duration: 5000}<span class="pl-pds">"</span></span>&gt;
+  This is a marquee message.
+&lt;/<span class="pl-ent">ng</span><span class="pl-e">-marquee</span>&gt;</pre></div>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>The project is released under the <a href="http://www.opensource.org/licenses/MIT">MIT license</a>.</p>
+
+<h2>
+<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h2>
+
+<p>The project's website is located at <a href="https://github.com/emn178/angular-marquee">https://github.com/emn178/angular-marquee</a><br>
+Author: <a href="mailto:emn178@gmail.com">emn178@gmail.com</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Angular-marquee maintained by <a href="https://github.com/emn178">emn178</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-44208259-3");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
