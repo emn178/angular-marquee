@@ -50,5 +50,5 @@ HTML
 The project is released under the [MIT license](http://www.opensource.org/licenses/MIT).
 
 ## Contact
-The project's website is located at https://github.com/emn178/angular-appear  
+The project's website is located at https://github.com/emn178/angular-marquee  
 Author: emn178@gmail.com
